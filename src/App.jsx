@@ -14,7 +14,7 @@ function App() {
 
       try {
         const geocodingResponse = await axios.get(
-          "http://api.openweathermap.org/geo/1.0/direct",
+          "https://api.openweathermap.org/geo/1.0/direct",
           {
             params: {
               q: currentCity,
